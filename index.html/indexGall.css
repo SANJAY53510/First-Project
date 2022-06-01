@@ -1,0 +1,271 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    color: blue;
+    padding-left: 165px;
+    background-color: aquamarine;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    
+}
+
+.image {
+    margin-top: 0px;
+
+}
+
+.navbar {
+    background-color:  rgb(121, 157, 235);
+
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 150px;
+}
+
+.navbar ul li {
+    padding: 12px;
+    color: darkblue;
+    padding: 10px;
+    margin: 16px;
+    list-style-type: none;
+    
+}
+
+
+.navbar ul li:hover {
+    color: black;
+    background-color: gold;
+
+}
+
+.gallery{
+   background-color:blue;
+   padding-top: 50px;
+   padding-left: 50px;
+   display: flex;
+   justify-content: center;
+   border:80px solid black;
+   
+   
+
+}
+.gall{
+    padding-top: 50px;
+    margin-left: 150px;
+    padding-bottom: 50px;
+    
+}
+.gal{
+    font-family: 'Encode Sans SC', sans-serif;
+  padding-left: 80px;
+  font-style: italic;
+  font-size: large;
+  font-weight: bold;
+  }
+
+.footer1{ 
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    text-align:center;
+    background-color:#1E2228;
+    flex-wrap: wrap;
+ }
+.footer2{
+    color: yellow;
+ 
+}
+.importent{
+    color: green;
+}
+.contact{
+    color:blue
+}
+.devlop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:#000000 ;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    color: white;
+
+}
+.right{
+    color: #e00472;
+}
+.aggarwal{
+    color: #e00472; ;
+}
+a{ 
+text-decoration: none;
+color: darkblue;
+}
+.importent a{
+    color: green;
+    }
+
+
+
+    html {
+        font-size: 100%;
+    }
+    
+    
+    @media(max-width:1075px) {
+    
+        html {
+            font-size: 100%;
+        }
+    
+        .gallery {
+            background-color: blue;
+            padding-top: 50px;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            border: 50px solid black;
+        }
+    
+        .gall {
+            padding-top: 50px;
+            margin-left: 50px;
+            padding-bottom: 50px;
+        }
+    
+        .gal {
+            font-family: 'Encode Sans SC', sans-serif;
+            padding-left: 50px;
+            font-style: italic;
+            font-size: large;
+            font-weight: bold;
+        }
+    }
+    
+    @media(max-width:831px) {
+        .gallery {
+            background-color: blue;
+            padding-top: 50px;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            border: 80px solid black;
+            border-top-style: double;
+            border-bottom-style: double;
+            border-inline-color: blue;
+        }
+    
+        .gall {
+            padding-top: 100px;
+            margin-left: 10px;
+            padding-bottom: 100px;
+            margin-right: 300px;
+        }
+    
+        .gal {
+            font-family: 'Encode Sans SC', sans-serif;
+            margin-left: 200px;
+            font-style: italic;
+            font-size: large;
+            font-weight: bold;
+            color: gold;
+            margin-top: 30px;
+        }
+    
+        .devlop {
+            flex-wrap: wrap;
+        }
+    
+        .navbar ul {
+            flex-wrap: wrap;
+        }
+    
+        .contact {
+            padding-top: 10px;
+        }
+    
+        .aggarwal {
+            margin-left: 5px; }
+        }
+    
+        @media(max-width:679px) {
+            .gal {
+                font-family: 'Encode Sans SC', sans-serif;
+                padding-right: 250px;
+                font-style: italic;
+                font-size: large;
+                font-weight: bold;
+                color:khaki;
+                padding-top: 50px;
+            }
+    
+            .gall {
+                padding-top: 10px;
+                margin: 100px;
+                padding-bottom: 50px;
+            }
+    
+            .gallery {
+                background-color: blue;
+                padding-top: 50px;
+                padding: 20px;
+                display: flex;
+                justify-content: center;
+                border: 80px solid black;
+                border-inline-color: blue;
+                border-top-style: double;
+                border-bottom-style: double;
+                flex-wrap: wrap;
+            }
+        }
+        
+           @media(max-width:531px) {
+            .head {
+                display: flex;
+                flex-direction: row;
+                color: blue;
+                padding-left: 10px;
+                background-color: aquamarine;
+                padding-bottom: 40px;
+                padding-top: 30px;
+                flex-wrap: wrap;
+            }
+    
+            .image {
+                margin-top: 0px;
+                margin-left: 0px;
+            }
+    
+        .gall img {
+            width: 300px;
+                height: 250px;
+            }
+        }
+    
+        @media(max-width:327px) {
+            .gall img {
+                width: 250px;
+                height: 200px;
+            }
+    
+            .gall {
+                padding-bottom: 0px;
+            }
+    
+            .gal {
+                color: yellow;
+            }
+        }   

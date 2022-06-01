@@ -1,0 +1,253 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    color: blue;
+    padding-left: 165px;
+    background-color: aquamarine;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    
+}
+
+.image {
+    margin-top: 0px;
+
+}
+
+.navbar {
+    background-color: rgb(121, 157, 235) ;
+    
+
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 150px;
+    flex-wrap: wrap;
+}
+
+.navbar ul li {
+    padding: 12px;
+    color: darkblue;
+    padding: 10px;
+    margin: 16px;
+    list-style-type: none;
+}
+
+.navbar ul li:hover {
+    color: black;
+    background-color: gold;
+
+}
+
+
+
+
+.form{
+  background-color:rgb(121, 157, 235);
+display:flex;
+flex-direction:column;
+padding-top: 50px;;
+border: 150px solid rgb(16, 16, 71);
+/* border-left-style: ;
+ border-right-style: ;*/
+ border-top-style: double;
+ border-bottom-style: double;
+border-inline-color:rgb(121, 157, 235);
+align-items: center;
+
+
+}
+.container1{
+color: black;
+padding-right: 150px;
+
+}
+.container2{
+ padding-top: 50px;
+ padding-bottom: 50px;
+ 
+ }
+
+.container2 ol li input{
+     width: 300px;
+     height: 30px;
+     border-radius: 10px;
+}
+.container2 ol li select{
+    height: 30px;
+    border-radius: 8px;
+    width: 200px;
+
+}
+
+
+
+
+.buton{
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-bottom: 80px;
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+}
+.buton:hover{
+    color: gold;
+    background-color: black;
+}
+
+.footer1{ 
+    display:flex;
+   justify-content: space-evenly;
+    padding: 64px;
+    text-align:center;
+    background-color:#1E2228;
+    flex-wrap: wrap;
+ }
+.footer2{
+    color: yellow;
+ 
+}
+.importent{
+    color: green;
+}
+.contact{
+    color:blue
+}
+.devlop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:#000000 ;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    color: white;
+    flex-wrap: wrap;
+
+}
+.right{
+    color: #e00472;
+}
+.aggarwal{
+    color: #e00472; ;
+}
+a{ 
+    text-decoration: none;
+    color: darkblue;
+    }
+    .importent a{
+        color: green;
+        }    
+
+
+
+/* media query*/
+       
+          html{
+            font-size: 100%;
+        }   
+           
+      
+      
+        @media(max-width:1039){
+         html{
+           font-size: 100%;}
+     }
+
+     @media(max-width:360px)
+     {   
+        .head {
+            display: flex;
+            flex-direction: row;
+            color: blue;
+            padding-left: 10px;
+            background-color: aquamarine;
+            padding-bottom: 40px;
+            padding-top: 30px;
+            flex-wrap: wrap;
+         }
+         .image {
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+        .contact{
+            color:blue;
+        margin-top: 10px;
+        }   
+        .container1{
+            color: black;
+            padding-right: 80px;
+            flex-wrap: wrap;
+            
+            }
+            .container2{
+             padding-top: 50px;
+             padding-bottom: 50px;
+             padding-right: 40px;
+             margin-left: 70px;
+             
+             }
+            
+            .container2 ol li input{
+                 width: 200px;
+                 height: 30px;
+                 border-radius: 10px;
+            }
+            .container2 ol li select{
+                height: 30px;
+                border-radius: 8px;
+                width: 100px;
+            
+            }              
+         }
+
+     
+     
+     
+     
+     /* maindiv */
+         .mainContainer{
+         position: relative;
+     }
+
+          .message{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color:gold;
+        width: 900px;
+        height: 280px;
+        background-color: green;
+        border: 2px solid black;
+        text-align: center;
+        display: none;
+        z-index: 100;
+        padding-top: 100px;
+     }
+ .btnn{
+  margin-top: 50px;
+  width: 80px;
+  height: 30px;
+  border: 2px solid black;
+  background-color: khaki;
+  color: darkblue;
+
+
+ }
+
+
+
+
+

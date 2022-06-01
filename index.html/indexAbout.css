@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    color: blue;
+    padding-left: 165px;
+    background-color: aquamarine;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    
+}
+
+.image {
+    margin-top: 0px;
+
+}
+
+.navbar {
+    background-color: rgb(121, 157, 235);
+
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 150px;
+}
+
+.navbar ul li {
+    padding: 12px;
+    color: darkblue;
+    padding: 10px;
+    margin: 16px;
+    list-style-type: none;
+}
+
+.navbar ul li:hover {
+    color: black;
+    background-color: gold;
+
+}
+.abo{
+    background-color:pink;
+   padding-bottom: 100px;
+   padding-top: 30px;
+ border: 100px solid rgb(3, 14, 66);
+ border-top-style:double;
+ border-bottom-style: double;
+/* border-left-style: double;*/
+/*border-right-style: double;*/
+
+
+}
+
+h3 {
+    color: darkblue;
+    padding-left: 150px;
+    padding-top: 50px;
+
+}
+
+.about {
+     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 150px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    
+}
+
+.about p {
+    margin-right: 120px;
+    
+}
+
+.footer1{ 
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    text-align:center;
+    background-color:#1E2228;
+ }
+.footer2{
+    color: yellow;
+ 
+}
+.importent{
+    color: green;
+}
+.contact{
+    color:blue
+}
+.devlop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:#000000 ;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    color: white;
+
+}
+.right{
+    color: #e00472;
+}
+.aggarwal{
+    color: #e00472; ;
+}
+a{ 
+    text-decoration: none;
+    color: darkblue;
+    }
+    .importent a{
+        color: green;
+        }    
+
+
+
+
+html{
+    font-size: 100%;
+}
+
+@media(max-width:1075px){
+
+    html{font-size: 100%}
+}
+
+@media(max-width:835px){
+    .navbar ul {
+        flex-wrap: wrap;
+    }
+    .footer1{
+        flex-wrap: wrap;
+    }
+    .devlop{
+        flex-wrap: wrap;
+    }
+    h3{color: black;}
+}
+@media(max-width:507px){
+.head{padding-left: 10px;
+    flex-wrap: wrap;
+}
+h3{color: red;
+    padding-left: 50px;
+   }
+}
+@media(max-width:359px){
+.about{padding-left: 105px;}
+h3{color: navy;
+    padding-left: 10px;
+   }
+.head{
+    margin-left: 15px;
+}
+}
+
+
+
+
+
+
